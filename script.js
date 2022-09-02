@@ -2,17 +2,17 @@
 
 // Задача №1---------------------------------------------/
 
-let user = localStorage.getItem("userData");
-if (user) {
-  console.log(JSON.parse(user));
-} else {
-  fetch("https://jsonplaceholder.typicode.com/users/1")
-    .then((response) => response.json())
-    .then((result) => {
-      localStorage.setItem("userData", JSON.stringify(result));
-    })
-    .catch((error) => console.error(error));
-}
+// let user = localStorage.getItem("userData");
+// if (user) {
+//   console.log(JSON.parse(user));
+// } else {
+//   fetch("https://jsonplaceholder.typicode.com/users/1")
+//     .then((response) => response.json())
+//     .then((result) => {
+//       localStorage.setItem("userData", JSON.stringify(result));
+//     })
+//     .catch((error) => console.error(error));
+// }
 
 // Задача №2----------------------------------------------/
 
