@@ -25,10 +25,10 @@
 
 // Задача №3----------------------------------------------/
 
-// function isAfter(firstDate, secondDate) {
-//   return firstDate > secondDate;
-// }
+function isAfter(date, dateToCompare) {
+  return date > dateToCompare;
+}
 
-// console.log(isAfter(new Date(1989, 6, 10), new Date(1987, 1, 11)));
-// console.log(isAfter(1648636135000, 1648549735000));
-// console.log(isAfter(1648549735000, 1648636135000));
+console.log(isAfter(new Date(1989, 6, 10), new Date(1987, 1, 11)));
+console.log(isAfter(1648636135000, 1648549735000));
+console.log(isAfter(1648549735000, 1648636135000));
